@@ -1,0 +1,68 @@
+# depslib dependency file v1.0
+1603041782 source:/home/dradic/Documents/All_C++_programs/SDL_cmd_and_conq_v2/main.cpp
+	<iostream>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+	"CustomFunctions.h"
+	"GameWindow_class.h"
+	"Object_class.h"
+	"ButtonObject_Class.h"
+
+1603041782 /home/dradic/Documents/All_C++_programs/SDL_cmd_and_conq_v2/include/GameWindow_class.h
+	<iostream>
+	<cstdlib>
+	<string.h>
+	<vector>
+	<dirent.h>
+	<stdlib.h>
+	"Object_class.h"
+	"ButtonObject_Class.h"
+	"CustomFunctions.h"
+	"UnitObject_class.h"
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+
+1602963220 source:/home/dradic/Documents/All_C++_programs/SDL_cmd_and_conq_v2/src/GameWindow_class.cpp
+	"GameWindow_class.h"
+
+1595969665 /home/dradic/Documents/All_C++_programs/SDL_cmd_and_conq_v2/include/Object_class.h
+	<iostream>
+	<string.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+
+1596567516 source:/home/dradic/Documents/All_C++_programs/SDL_cmd_and_conq_v2/src/Object_class.cpp
+	"Object_class.h"
+
+1596897082 /home/dradic/Documents/All_C++_programs/SDL_cmd_and_conq_v2/include/ButtonObject_Class.h
+	"Object_class.h"
+	<iostream>
+	<string.h>
+	<string>
+	<stdlib.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+
+1602959245 source:/home/dradic/Documents/All_C++_programs/SDL_cmd_and_conq_v2/src/ButtonObject_Class.cpp
+	"ButtonObject_Class.h"
+
+1603041782 /home/dradic/Documents/All_C++_programs/SDL_cmd_and_conq_v2/include/CustomFunctions.h
+	<iostream>
+	<string.h>
+	<stdlib.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL_image.h>
+
+1603042889 source:/home/dradic/Documents/All_C++_programs/SDL_cmd_and_conq_v2/src/CustomFunctions.cpp
+	"CustomFunctions.h"
+
+1598023901 /home/dradic/Documents/All_C++_programs/SDL_cmd_and_conq_v2/include/UnitObject_class.h
+	"Object_class.h"
+	"CustomFunctions.h"
+	<iostream>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL.h>
+
+1598023901 source:/home/dradic/Documents/All_C++_programs/SDL_cmd_and_conq_v2/src/UnitObject_class.cpp
+	"UnitObject_class.h"
+

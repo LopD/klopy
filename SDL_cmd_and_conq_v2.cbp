@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SDL_cmd_and_conq_v2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/SDL_cmd_and_conq_v2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/SDL_cmd_and_conq_v2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="`sdl-config --cflags`" />
+		</Compiler>
+		<Linker>
+			<Add option="-lSDL2 -lSDL2_image" />
+		</Linker>
+		<Unit filename="cb.bmp" />
+		<Unit filename="include/ButtonObject_Class.h" />
+		<Unit filename="include/CustomFunctions.h" />
+		<Unit filename="include/GameWindow_class.h" />
+		<Unit filename="include/Object_class.h" />
+		<Unit filename="include/UnitObject_class.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="maps/Tutorial.txt" />
+		<Unit filename="src/ButtonObject_Class.cpp" />
+		<Unit filename="src/CustomFunctions.cpp" />
+		<Unit filename="src/GameWindow_class.cpp" />
+		<Unit filename="src/Object_class.cpp" />
+		<Unit filename="src/UnitObject_class.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,6 @@
+#UNIT [0] IS EMPTY
+#UNIT [1]scouts:Bitfield,max_HP,max_speed (this also goes for all other units)
+2
+50
+3
+
